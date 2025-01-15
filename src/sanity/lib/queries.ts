@@ -9,5 +9,17 @@ export const POSTS_QUERY =
 
 export const POST_QUERY =
   defineQuery(`*[_type == "post" && slug.current == $slug][0]{
-  title, body, mainImage
+  title, body, mainImage ,
+  defined(categories) => {
+  categories[] -> 
+  } ,
+  defined(author) => {
+  author ->
+  },
+  defined(heroSection) => {
+    heroSection ->
+  },
+  defined(banner) => {  
+   banner
+  }
 }`);

@@ -50,6 +50,11 @@ export const postType = defineType({
       name: 'body',
       type: 'blockContent',
     }),
+    {
+      title: 'Banner',
+      name: 'banner',
+      type: 'customBanner',
+    },
   ],
   preview: {
     select: {

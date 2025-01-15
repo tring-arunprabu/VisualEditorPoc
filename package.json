@@ -16,6 +16,7 @@
     "next-sanity": "^9.8.32",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-player": "^2.16.0",
     "sanity": "^3.68.3",
     "styled-components": "^6.1.14"
   },
